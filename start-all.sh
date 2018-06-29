@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd ~/server-scripts
-./start-cse-emresa.sh &
+./start-cse-empresa.sh &
 ./start-cse-acd-curso.sh &
 ./start-cse-acd-disciplina.sh &
 ./start-cse-usuario.sh &
@@ -12,3 +12,5 @@ cd ~/server-scripts
 ./start-cse-acd-parametrizacao.sh &
 ./start-cse-acd-caa.sh &
 ./start-cse-acd-aluno.sh &
+./start-cse-acd-polo.sh &
+
