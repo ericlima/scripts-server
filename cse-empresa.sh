@@ -2,7 +2,7 @@
 
 cd /usr/src/app/
 mkdir git
-git clone https://EricGeorgeLima:l1m43r1c@bitbucket.org/tiucs/cse-empresa.git
+git clone https://EricGeorgeLima:******@bitbucket.org/tiucs/cse-empresa.git
 cd cse-empresa
 git checkout develop
 git pull
