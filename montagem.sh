@@ -1,1 +1,1 @@
-docker build --no-cache -t pod-cse-empresa .
+docker build --no-cache -t pod-equivalencia-back:v1 -f Dockerfile.2 .

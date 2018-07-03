@@ -1,0 +1,5 @@
+FROM zenika/alpine-maven
+
+RUN apk update && apk upgrade && apk add --no-cache bash git openssh 
+COPY equivalencia-back.sh /usr/src/app/
+CMD  /usr/src/app/equivalencia-back.sh
